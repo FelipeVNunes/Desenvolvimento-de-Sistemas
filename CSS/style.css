@@ -32,7 +32,7 @@ text-align: end;
 /* atributos de espaçamento */
 .box{
     /* define a largura */
-width: 200;
+width: 200px;
 /* define a altura */
 height: 200px;
 /* define o esoaço externo  margem*/
@@ -40,14 +40,14 @@ margin: 15px 5px 10px 5px;
 /* espaço interno */
 padding: 10px;
 /* espaço da borda */
-border: 1px solid black;
+border: 3px solid black;
 }
 
 .position{
     /*  a forma de posicionamento */
     display: flex;
     /* posicionar verticalmente */
-    align-items: center;
+    align-items: lef;
     /* posicionar horizontalmente */
     justify-content: center;
 }
@@ -55,4 +55,43 @@ border: 1px solid black;
 .position2{
     position: absolute;
     top: 10px;
+}
+
+body{
+    /* altera a cor do fundo */
+    background-color: beige;
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20200714/pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg");
+
+    /* define a reperição das imagens do fundo */
+    background-repeat: no-repeat;
+    /* define a posição */
+    /* background-position: center */
+    /* define o tamaho da imagem no fundo */
+    background-size: cover;
+}
+.visuais{
+    background-color: red;
+    /* opacidade do elemento */
+    opacity: 75%;
+    /* Define a sombra   - Y,X, Bluer, spreand*/ 
+    box-shadow: 20px 5px 1px 10px;
+    /* deixa arredindado */
+    border-radius: 20px;
+    /* transforma o elemento - rotacionar */
+    transform: rotate(1turn);
+    /* adiciona uma transição */
+   transition: width 2s , heigth 2s , transform 2s;
+}
+
+.visuais:hover{
+    width: 200px;
+    height: 200px;
+    background-color: green ;
+    transform: rotate(10turn);
+}
+.cursor{
+    /* controla o scroll do elemento */
+    overflow-y: auto;
+    overflow-x: hidden;
+    cursor: move;
 }
