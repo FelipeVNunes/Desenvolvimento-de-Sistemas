@@ -1,11 +1,63 @@
+/* Fundo branco geral */
 * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+  }
+  
+  
+  .titulo {
+    position: relative;     
+    padding: 10px 0;
+    text-align: center;    
+    color: blue;
+    font-size: 45px;
+    
+  }
+  
 
- background-color: white;
+  .logo {
+    position: absolute;
+    left: 20px;             
+    top: 0;              
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+  }
+  .linha{
+    border: none;          /* remove estilo padrão */
+  height: 10px;           /* espessura */
+  background: #0000ff;   /* cor da linha (azul) */
+  margin: 20px 0;        /* espaço em cima e embaixo */
+  border-radius: 5px; 
+  }
+
+  .box {
+    width: 350px;
+    height: 350px;
+    margin: 100px;
+    border: 4px solid cadetblue;
+    overflow: hidden;
 }
- .logo {
-    margin-left: 20px;
-    width: 50px;
-   
+
+.box img{
+    width: 350px;            
+    height: 350px;   
 }
 
 
+.minititulo{
+    text-align: center;
+    color: #0000ff;
+
+}
+
+
+
+
+  
