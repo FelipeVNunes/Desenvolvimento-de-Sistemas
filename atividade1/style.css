@@ -119,10 +119,12 @@ p {
   left: 1%;
   font-weight: bold;
   margin-bottom: 10px;
+  color: white;
 }
 
 
 .redes-sociais p {
+  color: white;
   margin: 5px 0;           
 }
 
@@ -134,4 +136,5 @@ p {
   margin-top: 15px;
   font-size: 0.9em;       
   justify-content: end;
+  color: white;
 }
